@@ -175,6 +175,7 @@ function generateHTML(data) {
       <strong>Creador:</strong> 
       <a href="${playlist.creatorLink}" target="_blank">${playlist.creator}</a>
     </p>
+     <p><strong>Nombre para copiar:</strong> ${playlist.creator}</p>
     <p><strong>Detalles:</strong> ${playlist.songsAndDuration}</p>
   </div>
 </div>
